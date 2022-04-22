@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    /* position: absolute; */
+    background-color: aquamarine;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+#simplelogo {
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+.left > div {
+    display: flex;
+    justify-content: end;
+}
